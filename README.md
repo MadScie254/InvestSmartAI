@@ -1,79 +1,59 @@
-# InvestSmartAI
-# InvestWise Predictor
+# InvestWise Predictor Project
 
-InvestWise Predictor is an intelligent online tool that utilizes neural networks to predict investment opportunities and provide advice on suitable business ventures in different regions. It aims to assist investors in making informed decisions by analyzing various economic, market, and demographic factors.
+Welcome to the InvestWise Predictor project repository! This project aims to develop an intelligent online tool that utilizes neural networks to predict investment opportunities and provide advice on suitable business ventures in different regions of Kenya. By leveraging a diverse set of economic indicators, trade data, and financial metrics, the tool aims to empower investors with data-driven insights for making informed investment decisions.
 
-## Features
+## Project Goals
 
-- Predicts potential investment opportunities in different countries or regions.
-- Advises on the types of businesses that could flourish based on market trends and indicators.
-- User-friendly web interface for inputting preferences and obtaining predictions.
-- Neural network models trained to capture patterns and relationships in diverse data sets.
+The primary goals of the InvestWise Predictor project are as follows:
 
-## Getting Started
+- Predict potential investment opportunities in various regions of Kenya.
+- Provide tailored advice on the types of businesses that could flourish based on data-driven insights.
+- Create a user-friendly web interface that allows investors to interact with the tool and receive predictions.
 
-These instructions will help you set up the project on your local machine for development and testing purposes.
+## Technology Stack
 
-### Prerequisites
+The project is built using a combination of programming languages, libraries, and frameworks:
 
-- Python (3.6 or higher)
-- Node.js and npm
+- Programming Language: Python
+- Neural Network Libraries: TensorFlow or PyTorch
+- Back-End Web Framework: Flask
+- Front-End Framework: React.js
+- Version Control: Git and GitHub
 
-### Installation
+## Project Setup
+
+To set up the project on your local machine for development and testing purposes, follow these steps:
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/your-username/investwise-predictor.git
-   cd investwise-predictor
+   https://github.com/MadScie254/InvestSmartAI.git
 
-2. Install backend dependencies:
-
+2. Install Python Dependencies for the Back End:
    ```bash
-   pip install -r requirements.txt
+   pip install -r backend/requirements.txt
    ```
 
-3. Install frontend dependencies:
-
+3. Install Node.js Dependencies for the Front End:
    ```bash
    cd frontend
    npm install
    ```
 
-### Usage
-
-1. Run the backend server:
-
+4. Start the Back End Server:
    ```bash
-   python app.py
+   python backend/app.py
    ```
 
-2. Run the frontend development server:
-
+5. Start the Front End Development Server:
    ```bash
    cd frontend
    npm start
    ```
 
-3. Access the tool in your web browser at http://localhost:3000.
+6. Access the tool in your web browser at [http://localhost:3000](http://localhost:3000).
 
-## Contributing
+## Next Steps
 
-Contributions are welcome! To contribute to InvestWise Predictor, follow these steps:
+With the initial project setup completed, the next step is to proceed with Step 2: Data Preprocessing and Feature Engineering. In this step, we'll clean and preprocess the provided data sets, and engineer relevant features for the neural network models.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test them locally.
-4. Commit your changes with descriptive commit messages.
-5. Push your changes to your fork.
-6. Submit a pull request to the main repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Thanks to the contributors who helped develop and test InvestWise Predictor.
-
-```
+Stay tuned for further updates as we progress through the project!
