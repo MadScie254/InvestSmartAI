@@ -52,6 +52,43 @@ To set up the project on your local machine for development and testing purposes
 
 6. Access the tool in your web browser at [http://localhost:3000](http://localhost:3000).
 
+### Data Sources
+
+The project utilizes the following data sets related to economic indicators and trade data in Kenya:
+
+1. Annual GDP.csv
+2. Inflation Rates.csv
+3. Diaspora Remittances.csv
+4. Value Direct Imports Per Commodities (Ksh Million).csv
+5. Principal Exports Volume, Value, and Unit Prices (Ksh Million).csv
+6. Foreign Trade Summary (Ksh Million).csv
+
+### Technology Stack
+
+- Programming Language: Python
+- Neural Network Libraries: TensorFlow
+- Back-End Framework: Flask
+- Front-End Framework: React.js
+- Version Control: Git and GitHub
+
+### Project Structure
+
+The project is structured as follows:
+
+- `backend/`: Contains the back-end code developed using Flask.
+- `frontend/`: Contains the front-end code developed using React.js.
+- `data/`: Stores the data sets used for analysis and model training.
+
+## Planned Steps
+
+The project will be developed in a series of well-defined steps:
+
+1. Data Preprocessing and Feature Engineering
+2. Model Development and Training
+3. Web Application Development (Front End and Back End)
+4. Deployment and Testing
+5. Continuous Improvement and Maintenance
+
 ## Next Steps
 
 With the initial project setup completed, the next step is to proceed with Step 2: Data Preprocessing and Feature Engineering. In this step, we'll clean and preprocess the provided data sets, and engineer relevant features for the neural network models.
